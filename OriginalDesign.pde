@@ -23,14 +23,14 @@ void draw() {
   fill(18,160,11);
   rect(0,470,500,70);
   blueBalloon();
-  lin();
+  wireforballoon();
   brownBox();
 }
 void blueBalloon() {
   fill(8,92,155);
   ellipse(x + circle,y + circle2,100,100);
 }
-void lin() {
+void wireforballoon() {
     fill(255,185,54);
   line(x + lin,y + lin2,x+220,y+190);
   fill(255,185,54);
